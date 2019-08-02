@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Nunito Sans';
+    src: local('Nunito Sans Light'), local('NunitoSans-Light'), url('../fonts/NunitoSans/Nunitosanslight.woff2') format('woff2'), url('../fonts/NunitoSans/Nunitosanslight.woff') format('woff'), url('../fonts/NunitoSans/Nunitosanslight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: local('Nunito Sans Regular'), local('NunitoSans-Regular'), url('../fonts/NunitoSans/Nunitosansregular.woff2') format('woff2'), url('../fonts/NunitoSans/Nunitosansregular.woff') format('woff'), url('../fonts/NunitoSans/Nunitosansregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: local('Nunito Sans Black'), local('NunitoSans-Black'), url('../fonts/NunitoSans/Nunitosansblack.woff2') format('woff2'), url('../fonts/NunitoSans/Nunitosansblack.woff') format('woff'), url('../fonts/NunitoSans/Nunitosansblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display'), local('PlayfairDisplay-Regular'), url('../fonts/Playfair/playfairdisplay.woff2') format('woff2'), url('../fonts/Playfair/playfairdisplay.woff') format('woff'), url('../fonts/Playfair/playfairdisplay.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

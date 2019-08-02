@@ -1,0 +1,94 @@
+.page-header {
+	height: 100vh;
+	.container-outer {
+		height: 100%;
+	}
+	.container {
+		height: 100%;
+	}
+}
+.header-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 70%;
+	width: auto;
+}
+.logo-img {
+	width: 140px;
+	position: absolute;
+	top: 6vh;
+	left: 0;
+}
+.menu-btn {
+	position: absolute;
+	right: 20px;
+	top: calc(6vh + 11px);
+	height: 24px;
+	width: 31px;
+	border: none;
+	background: transparent url('../img/menu.png') no-repeat center;
+	cursor: pointer;
+}
+.centering {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.offer {
+	margin-left: 13vw;
+	margin-bottom: 5vh;
+	&-title {
+		color: $offer-title-color;
+		font-size: 66px;
+		font-weight: 300;
+		max-width: 600px;
+	}
+	&-small {
+		font-size: 0.6em;
+		display: block;
+	}
+	&-accent {
+		&-red {
+			color: $accent-color;
+			padding-right: 18px;
+			font-size: 1.35em;
+			font-weight: 900;
+			border-right: 10px solid #000;
+			line-height: 1;
+			margin-bottom: 0.28em;
+			display: inline-block;
+		}
+		&-black {
+			color: #333;
+		}
+	}
+	&-bottom-line {
+		display: block;
+	}
+
+}
+.scroll-down {
+	display: block;
+	position: absolute;
+	bottom: 8vh;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 2px solid $offer-title-color;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	&::before {
+		content: "";
+		width: 10px;
+		height: 10px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%) rotate(-45deg);
+		border-left: 2px solid $accent-color;
+		border-bottom: 2px solid $accent-color;
+	}
+}
