@@ -50,6 +50,11 @@
 	.header-bg {
 		display: none;
 	}
+	.page-header {
+		.logo-img {
+			width: 80px;
+		}
+	}
 	.offer {
 		&-title {
 		font-size: 40px;
@@ -66,11 +71,6 @@
 }
 
 @media all and (max-width: 568px) {
-	.page-header {
-		.logo-img {
-			width: 80px;
-		}
-	}
 	.offer {
 		&-title {
 		font-size: 26px;
