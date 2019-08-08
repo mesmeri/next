@@ -1,0 +1,23 @@
+.what-we-do {
+	.smaller {
+		margin-left: 50px;
+		margin-bottom: 50px;
+	}
+	&-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&-content,
+	&-poster {
+		width: 46%;
+	}
+	&-txt {
+		padding: 10px 10px 10px 50px;
+	}
+	&-poster {
+		img {
+			width: 100%;
+		}
+	}
+}

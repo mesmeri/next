@@ -1,4 +1,7 @@
 @media all and (max-width: 1500px) {
+	.section-title {
+		font-size: 48px;
+	}
 	.offer {
 		margin-left: 210px;
 		&-title {
@@ -18,6 +21,14 @@
 	.offer {
 		margin-left: 13vw;
 	}
+	.what-we-do {
+		&-content {
+			width: 65%
+		}
+		&-poster {
+			width: 25%;
+		}
+	}
 
 }
 
@@ -25,6 +36,18 @@
 
 
 @media all and (max-width: 992px) {
+	.container {
+		margin: 0 8vw;
+	}
+	.section {
+		padding: 75px 0;
+	}
+	.section-title {
+		font-size: 42px;
+	}
+	.shadow-title {
+			left: -3vw;
+	}
 	.page-header {
 		.logo-img {
 			left: 50%;
@@ -47,6 +70,13 @@
 
 
 @media all and (max-width: 786px) {
+	body {
+		font-size: 15px;
+	}
+	.shadow-title {
+		// font-size: 1.6em;
+		display: none
+	}
 	.header-bg {
 		display: none;
 	}
@@ -68,9 +98,29 @@
 			height: 7px;
 		}
 	}
+	.what-we-do {
+		.smaller {
+			margin-bottom: 30px;
+		}
+		&-wrapper {
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		&-content {
+			width: 100%;
+		}
+		&-poster {
+			width: 45%;
+			order: -1;
+			margin-bottom: 60px;
+		}
+	}
 }
 
 @media all and (max-width: 568px) {
+	.section-title {
+		font-size: 32px;
+	}
 	.offer {
 		&-title {
 		font-size: 26px;
