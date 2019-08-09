@@ -1,11 +1,22 @@
 @media all and (max-width: 1500px) {
-	.section-title {
-		font-size: 48px;
+	.section {
+		padding: 120px 0;
+			&-title {
+			font-size: 48px;
+		}
 	}
 	.offer {
 		margin-left: 210px;
 		&-title {
 			font-size: 58px;
+		}
+	}
+	.post {
+		&-txt {
+			column-count: auto;
+			& > p:first-child:first-letter {
+				float: none;
+			}
 		}
 	}
 	
@@ -64,6 +75,14 @@
 			font-size: 50px;
 		}
 	}
+	.post {
+		&-content {
+			padding: 50px 110px 100px;
+		}
+	}
+	.slogan {
+		display: none;
+	}
 }
 
 
@@ -115,15 +134,33 @@
 			margin-bottom: 60px;
 		}
 	}
+	.post {
+		&-intro {
+			margin-left: 120px;
+			padding-right: 20px;
+		}
+		&-content {
+			padding: 20px 20px 100px;
+		}
+	}
 }
 
 @media all and (max-width: 568px) {
+	.section {
+		padding: 35px 0;
+	}
 	.section-title {
 		font-size: 32px;
 	}
 	.offer {
 		&-title {
 		font-size: 26px;
+		}
+	}
+	.post {
+		&-intro {
+			margin-left: 50px;
+			font-size: 80%;
 		}
 	}
 }

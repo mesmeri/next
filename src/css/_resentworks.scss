@@ -1,0 +1,18 @@
+.resent-works {
+	overflow: hidden;
+	.container {
+		position: relative;
+	}
+}
+.portfolio {
+	&-item {
+		list-style: none;
+		width: 375px;
+	}
+	&-list {
+		display: flex;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
