@@ -1,18 +1,48 @@
 .resent-works {
 	overflow: hidden;
-	.container {
-		position: relative;
+	.section-title {
+		margin-bottom: 130px;
 	}
 }
 .portfolio {
-	&-item {
-		list-style: none;
-		width: 375px;
-	}
 	&-list {
 		display: flex;
-		position: absolute;
-		top: 0;
-		left: 0;
+		margin: 20px 0 30px -10px;
+		padding: 0;
 	}
+	&-item {
+		list-style: none;
+		margin: 10px;
+		position: relative;
+		min-width: 375px;
+		img {
+			height: 100%;
+			max-width: 100%;
+		}
+		&-intro {
+			border: 1px solid #f0f0f0;
+			padding: 40px 50px;
+			box-sizing: border-box;
+			width: 375px;
+			font-size: 14px;
+			h3 {
+				color: $title-color;
+				font-family: $title-font;
+				font-size: 36px;
+				margin: 0 0 20px;
+			}
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+	&-link {
+		overflow: hidden;
+	}
+}
+.visit-portfolio-link {
+	color: $accent-color;
+	font-weight: 900;
+	font-size: 14px;
+	padding: 10px;
 }

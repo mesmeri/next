@@ -1,3 +1,17 @@
+@media all and (max-width: 1950px) {
+	.portfolio {
+		&-item {
+			&:nth-child(4) {
+				display: none;
+			}
+		}
+	}
+}
+
+
+
+
+
 @media all and (max-width: 1500px) {
 	.section {
 		padding: 120px 0;
@@ -19,9 +33,24 @@
 			}
 		}
 	}
+	.resent-works {
+		.section-title {
+			margin-bottom: 90px;
+		}
+	}
 	
 }
 
+
+@media all and (max-width: 1390px) {
+	.portfolio {
+		&-item {
+			&:nth-child(3) {
+				display: none;
+			}
+		}
+	}
+}
 
 
 
@@ -83,6 +112,20 @@
 	.slogan {
 		display: none;
 	}
+	.portfolio {
+		&-list {
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		&-item {
+			margin-bottom: 20px;
+			&-intro {
+				h3 {
+					font-size: 30px;
+				}
+			}
+		}
+	}
 }
 
 
@@ -143,7 +186,14 @@
 			padding: 20px 20px 100px;
 		}
 	}
+	.resent-works {
+		.section-title {
+			margin-bottom: 70px;
+		}
+	}
 }
+
+
 
 @media all and (max-width: 568px) {
 	.section {
@@ -161,6 +211,23 @@
 		&-intro {
 			margin-left: 50px;
 			font-size: 80%;
+		}
+	}
+	.portfolio {
+		&-list {
+			margin-left: 0;
+		}
+		&-item {
+			min-width: 300px;
+			&-intro {
+				padding: 40px 30px;
+				h3 {
+					font-size: 24px;
+				}
+			}
+			img {
+				height: auto;
+			}
 		}
 	}
 }
