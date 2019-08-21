@@ -61,6 +61,7 @@ a {
 	position: relative;
 	margin: 0;
 	padding: 0;
+	letter-spacing: 0.05em;
 }
 .shadow-title {
 	font-size: 1.8em;
@@ -80,6 +81,17 @@ a {
 	margin-top: 10px;
 }
 
+.cta-btn {
+	background-color: $accent-color;
+	color: #fff;
+	font-family: $txt-font;
+	font-size: 16px;
+	font-weight: 900;
+	border: none;
+	padding: 1.06em 1.94em;
+	letter-spacing: 0.1em;
+	cursor: pointer;
+}
 
 
 
